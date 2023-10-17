@@ -1,0 +1,12 @@
+.search__btn {
+    background-color: var(--azulVerdoso);
+    border: none;
+    color: var(--white);
+    height: 100%;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.search__btn:hover {
+    background-color: var(--verdeOscuro);
+    border: 2px inset var(--azulVerdosoClaro);
+}

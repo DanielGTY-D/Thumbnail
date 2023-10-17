@@ -1,0 +1,25 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azulOscuro);
+    width: 23rem;
+    height: 30px;
+    border-radius: .5rem;
+    padding: 0 0 0 .5rem;
+}
+
+@media (min-width: 556px) {
+    .search {
+        width: 27rem;
+        height: 35px;
+        position: absolute;
+        left: calc(60% - 5rem);
+    }
+}
+
+@media (min-width: 768px) {
+    .search {
+        position: initial;
+    }
+}

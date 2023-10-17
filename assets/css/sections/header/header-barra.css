@@ -1,0 +1,16 @@
+.header__barra {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    position: relative;
+}
+
+@media (min-width: 556px) {
+    .header__barra {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

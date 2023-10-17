@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThumbNail</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Css Header -->
+    <link rel="stylesheet" href="/assets/css/sections/header/header.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/header-barra.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/menu.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/links/links.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/links/links-item.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/links/links-enlace.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/logo/logo.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/logo/logo-img.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/search/search.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/search/search-input.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/search/search-btn.css">
+
+    <!-- css MenúLateral -->
+    <link rel="stylesheet" href="/assets/css/sections/header/menuLateral/menu-latera.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/menuLateral/menu-header.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/menuLateral/btn-cerrar.css">
+    <link rel="stylesheet" href="/assets/css/sections/header/menuLateral/contenido.css">
+
+    <!-- galeria -->
+    <link rel="stylesheet" href="/assets/css/sections/galeria/galeria.css">
+    <link rel="stylesheet" href="/assets/css/sections/galeria/listadoGaleria/listado-galeria.css">
+    <link rel="stylesheet" href="/assets/css/sections/galeria/itemImage/item-image.css">
+    <link rel="stylesheet" href="/assets/css/sections/galeria/itemImage/image.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__barra">
+            <a href="index.html" class="logo">
+                <img class="logo__img" src="/assets/img/Logo2-out.png" alt="logo" width="120" height="100"
+                    loading="lazy">
+            </a>
+
+            <form class="search">
+                <input class="search__input" type="text" placeholder="Busca tu tema">
+                <button class="search__btn">Buscar</button>
+            </form>
+
+            <ul class="links">
+                <li class="links__item"><a class="links__enlace" href="/index.html">Home</a></li>
+                <li class="links__item"><a class="links__enlace" href="">Fotografias</a></li>
+                <li class="links__item"><a class="links__enlace" href="">Nosotros</a></li>
+            </ul>
+
+
+            <aside class="menu-lateral right-0" id="lateral-menu">
+                <h3 class="menu__header">ThumbNails</h3>
+                <img class="btn-cerrar" src="/assets/img/cerrar.svg" alt="cerrar menu" height="40px" width="40px"
+                    loading="lazy" id="cerrar">
+
+                <ul class="contenido">
+                    <li class="links__item"><a class="links__enlace" href="">Iniciar Sesión</a></li>
+                    <li class="links__item"><a class="links__enlace" href="">Registrarse</a></li>
+                    <li class="links__item"><a class="links__enlace" href="/index.html">Home</a></li>
+                    <li class="links__item"><a class="links__enlace" href="">Fotografias</a></li>
+                    <li class="links__item"><a class="links__enlace" href="">Nosotros</a></li>
+                </ul>
+            </aside>
+
+            <img class="menu" src="/assets/img/list.svg" alt="menu" height="40px" width="40px" loading="lazy" id="menu">
+        </div>
+    </header>
+    <main>
+        <div class="container galeria">
+            <h2 class="title">Pictures</h2>
+
+            <ul class="listado-galeria" data-listado-imagenes>
+
+            </ul>
+        </div>
+    </main>
+    <script type="module" src="/assets/controllers/app.js"></script>
+</body>
+
+</html>

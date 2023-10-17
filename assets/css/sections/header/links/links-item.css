@@ -1,0 +1,22 @@
+.links__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    width: 25rem;
+    padding: .5rem;
+}
+
+.links__item:last-of-type {
+    margin: 0;
+}
+
+.links__item:hover {
+    transition: all .2s ease-in;
+    background-color: var(--azulOscuro);
+}
+
+@media (min-width: 1024px) {
+    .links__item:hover {
+        background-color: var(--azulVerdosoclaro);
+    }
+}

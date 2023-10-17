@@ -1,0 +1,31 @@
+.menu-lateral {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    height: 100%;
+    width: 60%;
+    background-color: var(--azulVerdoso);
+    padding: 2rem;
+    box-shadow: -22px 0px 10px -22px rgba(0, 0, 0, 0.60);
+    -webkit-box-shadow: -22px 0px 10px -22px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: -22px 0px 10px -22px rgba(0, 0, 0, 0.66);
+}
+
+@media (min-width: 480px) {
+    .menu-lateral {
+        width: 45%;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-lateral {
+        width: 28%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu-lateral {
+        display: none;
+    }
+}

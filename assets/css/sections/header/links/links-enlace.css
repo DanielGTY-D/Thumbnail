@@ -1,0 +1,6 @@
+.links__enlace {
+    display: block;
+    color: var(--blancoVerdoso);
+    width: 100%;
+    height: 20px;
+}

@@ -1,0 +1,8 @@
+.btn-cerrar {
+    position: absolute;
+    z-index: 4;
+    width: 30px;
+    height: 30px;
+    top: 1.3rem;
+    right: 1rem;
+}

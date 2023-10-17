@@ -1,0 +1,6 @@
+.search__input {
+    border: none;
+    outline: none;
+    background-color: var(--azulOscuro);
+    color: var(--blancoVerdoso)
+}

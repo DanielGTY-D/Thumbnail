@@ -1,0 +1,14 @@
+{
+  "name": "alurageekv3-con-clases",
+  "version": "1.0.0",
+  "description": "Galería de fotos",
+  "main": "index.js",
+  "author": "Danny yael garcía torres",
+  "license": "MIT",
+  "dependencies": {
+    "pexels": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
